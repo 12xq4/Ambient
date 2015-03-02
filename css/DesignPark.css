@@ -1,0 +1,42 @@
+#backg {
+	min-height: 100%;
+	min-width: 1024px;
+	
+	width: 100%;
+	height: auto;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	z-index: -10;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+#screen{
+	z-index: -5;
+	width: 100%;
+	height: auto;
+}
+
+#printer{
+	width: 15%;
+	height: auto;
+	position: fixed;
+	top: 35%;
+	left: 40%;
+	
+}
+
+.box {
+	position: fixed;
+	height: 25%;
+	width: auto;
+	top: 33%;
+	left: 40%;
+	z-index: -5;
+}
